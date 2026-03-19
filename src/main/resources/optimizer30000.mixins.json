@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "package": "dev.optimizer30000.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GameRendererLowSpecMixin",
+    "RenderSystemBackendBudgetMixin",
+    "SectionBuilderMixin",
+    "SectionBuilderRenderDataMixin",
+    "TextRendererLowSpecMixin",
+    "UtilMainWorkerBudgetMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
