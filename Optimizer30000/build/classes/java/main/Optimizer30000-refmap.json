@@ -1,0 +1,48 @@
+{
+  "mappings": {
+    "dev/optimizer30000/mixin/GameRendererLowSpecMixin": {
+      "Lnet/minecraft/client/render/LightmapTextureManager;tick()V": "Lnet/minecraft/class_765;method_3314()V",
+      "getPostProcessor": "Lnet/minecraft/class_757;method_3183()Lnet/minecraft/class_279;",
+      "loadBlurPostProcessor": "Lnet/minecraft/class_757;method_57797(Lnet/minecraft/class_5912;)V",
+      "loadPostProcessor": "Lnet/minecraft/class_757;method_3168(Lnet/minecraft/class_2960;)V",
+      "onResized": "Lnet/minecraft/class_757;method_3169(II)V",
+      "renderBlur": "Lnet/minecraft/class_757;method_57796(F)V",
+      "renderWorld(Lnet/minecraft/client/render/RenderTickCounter;)V": "Lnet/minecraft/class_757;method_3188(Lnet/minecraft/class_9779;)V",
+      "togglePostProcessorEnabled": "Lnet/minecraft/class_757;method_3184()V"
+    },
+    "dev/optimizer30000/mixin/SectionBuilderMixin": {
+      "build(Lnet/minecraft/util/math/ChunkSectionPos;Lnet/minecraft/client/render/chunk/ChunkRendererRegion;Lcom/mojang/blaze3d/systems/VertexSorter;Lnet/minecraft/client/render/chunk/BlockBufferAllocatorStorage;)Lnet/minecraft/client/render/chunk/SectionBuilder$RenderData;": "Lnet/minecraft/class_9810;method_60904(Lnet/minecraft/class_4076;Lnet/minecraft/class_853;Lnet/minecraft/class_8251;Lnet/minecraft/class_750;)Lnet/minecraft/class_9810$class_9811;"
+    },
+    "dev/optimizer30000/mixin/TextRendererLowSpecMixin": {
+      "draw(Ljava/lang/String;FFIZLorg/joml/Matrix4f;Lnet/minecraft/client/render/VertexConsumerProvider;Lnet/minecraft/client/font/TextRenderer$TextLayerType;II)I": "Lnet/minecraft/class_327;method_27521(Ljava/lang/String;FFIZLorg/joml/Matrix4f;Lnet/minecraft/class_4597;Lnet/minecraft/class_327$class_6415;II)I",
+      "draw(Lnet/minecraft/text/OrderedText;FFIZLorg/joml/Matrix4f;Lnet/minecraft/client/render/VertexConsumerProvider;Lnet/minecraft/client/font/TextRenderer$TextLayerType;II)I": "Lnet/minecraft/class_327;method_22942(Lnet/minecraft/class_5481;FFIZLorg/joml/Matrix4f;Lnet/minecraft/class_4597;Lnet/minecraft/class_327$class_6415;II)I"
+    },
+    "dev/optimizer30000/mixin/UtilMainWorkerBudgetMixin": {
+      "getMainWorkerExecutor": "Lnet/minecraft/class_156;method_18349()Ljava/util/concurrent/ExecutorService;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "dev/optimizer30000/mixin/GameRendererLowSpecMixin": {
+        "Lnet/minecraft/client/render/LightmapTextureManager;tick()V": "Lnet/minecraft/class_765;method_3314()V",
+        "getPostProcessor": "Lnet/minecraft/class_757;method_3183()Lnet/minecraft/class_279;",
+        "loadBlurPostProcessor": "Lnet/minecraft/class_757;method_57797(Lnet/minecraft/class_5912;)V",
+        "loadPostProcessor": "Lnet/minecraft/class_757;method_3168(Lnet/minecraft/class_2960;)V",
+        "onResized": "Lnet/minecraft/class_757;method_3169(II)V",
+        "renderBlur": "Lnet/minecraft/class_757;method_57796(F)V",
+        "renderWorld(Lnet/minecraft/client/render/RenderTickCounter;)V": "Lnet/minecraft/class_757;method_3188(Lnet/minecraft/class_9779;)V",
+        "togglePostProcessorEnabled": "Lnet/minecraft/class_757;method_3184()V"
+      },
+      "dev/optimizer30000/mixin/SectionBuilderMixin": {
+        "build(Lnet/minecraft/util/math/ChunkSectionPos;Lnet/minecraft/client/render/chunk/ChunkRendererRegion;Lcom/mojang/blaze3d/systems/VertexSorter;Lnet/minecraft/client/render/chunk/BlockBufferAllocatorStorage;)Lnet/minecraft/client/render/chunk/SectionBuilder$RenderData;": "Lnet/minecraft/class_9810;method_60904(Lnet/minecraft/class_4076;Lnet/minecraft/class_853;Lnet/minecraft/class_8251;Lnet/minecraft/class_750;)Lnet/minecraft/class_9810$class_9811;"
+      },
+      "dev/optimizer30000/mixin/TextRendererLowSpecMixin": {
+        "draw(Ljava/lang/String;FFIZLorg/joml/Matrix4f;Lnet/minecraft/client/render/VertexConsumerProvider;Lnet/minecraft/client/font/TextRenderer$TextLayerType;II)I": "Lnet/minecraft/class_327;method_27521(Ljava/lang/String;FFIZLorg/joml/Matrix4f;Lnet/minecraft/class_4597;Lnet/minecraft/class_327$class_6415;II)I",
+        "draw(Lnet/minecraft/text/OrderedText;FFIZLorg/joml/Matrix4f;Lnet/minecraft/client/render/VertexConsumerProvider;Lnet/minecraft/client/font/TextRenderer$TextLayerType;II)I": "Lnet/minecraft/class_327;method_22942(Lnet/minecraft/class_5481;FFIZLorg/joml/Matrix4f;Lnet/minecraft/class_4597;Lnet/minecraft/class_327$class_6415;II)I"
+      },
+      "dev/optimizer30000/mixin/UtilMainWorkerBudgetMixin": {
+        "getMainWorkerExecutor": "Lnet/minecraft/class_156;method_18349()Ljava/util/concurrent/ExecutorService;"
+      }
+    }
+  }
+}
