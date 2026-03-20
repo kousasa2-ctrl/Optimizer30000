@@ -1,0 +1,6 @@
+v1	named	intermediary
+FIELD	dev/optimizer30000/mixin/GameRendererLowSpecMixin	Lnet/minecraft/client/MinecraftClient;	client	field_4015
+FIELD	dev/optimizer30000/mixin/GameRendererLowSpecMixin	Lnet/minecraft/client/render/LightmapTextureManager;	lightmapTextureManager	field_4028
+FIELD	dev/optimizer30000/mixin/GameRendererLowSpecMixin	Z	postProcessorEnabled	field_4013
+METHOD	dev/optimizer30000/mixin/GameRendererLowSpecMixin	()V	disablePostProcessor	method_3207
+METHOD	dev/optimizer30000/mixin/GameRendererLowSpecMixin	()Lnet/minecraft/client/render/Camera;	getCamera	method_19418

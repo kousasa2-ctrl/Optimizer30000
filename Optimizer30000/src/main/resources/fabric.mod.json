@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "optimizer30000",
+  "version": "1.0.0",
+  "name": "Optimizer30000",
+  "description": "Low-end optimization profile for Minecraft 1.21.1 on Sandy Bridge and Intel HD 3000 laptops.",
+  "authors": [
+    "Саша"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.optimizer30000.Optimizer30000Mod"
+    ]
+  },
+  "mixins": [
+    "optimizer30000.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
